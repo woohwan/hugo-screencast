@@ -18,7 +18,7 @@ phases:
   build:
     commands:
       - pwd
-      - git submodule update https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+      - git submodule update
       - ls -al themes/ananke
       - rm -rf public
       - hugo
