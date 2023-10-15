@@ -14,11 +14,11 @@ phases:
       - tar -xzf hugo_${HUGO_VERSION}_linux-amd64.tar.gz
       - mv hugo /usr/bin/hugo
       - cd -
-      - ls -al
       - rm -rf /tmp/*
   build:
     commands:
       - pwd
+      - ls -al themes/ananke
       - rm -rf public
       - hugo
       - hugo deploy
