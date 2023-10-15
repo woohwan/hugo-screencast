@@ -1,0 +1,11 @@
+baseURL = "http://hugo-screencat-richard.s3-website.ap-northeast-2.amazonaws.com"
+languageCode = "en-US"
+title = "Hugo AWS CD"
+theme = "ananke"
+
+
+[[deployment.targets]]
+# an arbitary name for this target
+name = "awsbucket"
+URL = "s3://hugo-screencat-richard?region=ap-northeast-2"
+
