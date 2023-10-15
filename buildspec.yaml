@@ -18,7 +18,7 @@ phases:
   build:
     commands:
       - pwd
-      - git submodule update
+      - git submodule update --recursive
       - ls -al themes/ananke
       - rm -rf public
       - hugo
