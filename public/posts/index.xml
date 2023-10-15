@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>https://example.org/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Posts on Hugo AWS CD</title>
+    <link>http://hugo-screencat-richard.s3-website.ap-northeast-2.amazonaws.com/posts/</link>
+    <description>Recent content in Posts on Hugo AWS CD</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 15 Oct 2023 03:05:23 +0000</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <lastBuildDate>Sun, 15 Oct 2023 03:05:23 +0000</lastBuildDate><atom:link href="http://hugo-screencat-richard.s3-website.ap-northeast-2.amazonaws.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post in Cloud9</title>
-      <link>https://example.org/posts/my-first-post/</link>
+      <link>http://hugo-screencat-richard.s3-website.ap-northeast-2.amazonaws.com/posts/my-first-post/</link>
       <pubDate>Sun, 15 Oct 2023 03:05:23 +0000</pubDate>
       
-      <guid>https://example.org/posts/my-first-post/</guid>
-      <description></description>
+      <guid>http://hugo-screencat-richard.s3-website.ap-northeast-2.amazonaws.com/posts/my-first-post/</guid>
+      <description>This should auto-deploy</description>
     </item>
     
   </channel>
